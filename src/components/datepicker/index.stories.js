@@ -1,8 +1,8 @@
 import { action } from "@storybook/addon-actions";
 import { storiesOf } from "@storybook/react";
 import React from "react";
-import DatePickerRow from "../components/datepicker/components/row";
-import DatePickerTile from "../components/datepicker/components/tile";
+import DatePickerTile from "./components/tile";
+import DatePickerRow from "./components/row";
 
 const stubWeek = [new Date(), new Date(), new Date(), new Date(), new Date()];
 
